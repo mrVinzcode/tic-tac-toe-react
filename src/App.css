@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Board {
+  padding: 15px;
+  gap: 15px;
+  width: min-content;
+  height: min-content;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  background-color: black;
+  cursor: pointer;
+}
+
+.Tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 100px;
+  height: 100px;
+}
